@@ -1,0 +1,18 @@
+.reveal section > img {
+  border: none;
+  box-shadow: none;
+}
+
+.reveal section > img.md {
+  height: 60vh;
+}
+
+.reveal section > img.sm {
+  max-height: 27vh;
+}
+
+#pretty-text {
+  font-family: Cookie, cursive;
+  font-size: 1.5em;
+  color: #FF69B4;
+}

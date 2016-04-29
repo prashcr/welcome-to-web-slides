@@ -4,13 +4,18 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Welcome to the Web</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="css/overrides.css">
+
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -24,14 +29,112 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>Welcome to the</h2>
+					<img class="md" src="images/www-globe.png" alt="World Wide Web">
+					<p>
+						<small>Created by <a href="http://prashcr.xyz">Prashanth Chandra</a> / <a href="http://twitter.com/prashcr">@prashcr</a></small>
+					</p>
+				</section>
+				<section>
+					<section>
+						<h2>What is the Web?</h2>
+					</section>
+					<section>
+						<h2>Computer Network</h2>
+						<h4>Two or more computers connected to each other form a network</h4>
+						<img class="md" src="images/interconnected-computers.jpg" alt="interconnected computers">
+					</section>
+					<section>
+						<h2>The Internet</h2>
+						<h4>The largest computer network in the world</h4>
+						<img src="images/opte-image.jpg" alt="internet visualization">
+						<aside class="notes">
+							That's a visualization of a small part of the Internet
+						</aside>
+					</section>
+					<section>
+						<h2>World Wide Web</h2>
+						<p><small>WWW, Web, etc.</small></p>
+						<p>A way to share and access information over the Internet through websites</p>
+						<img src="images/http-www.jpg" alt="" class="sm">
+					</section>
+					<section>
+						<h3>How many websites are there in the world?</h3>
+						<p class="fragment">
+							<a href="http://www.internetlivestats.com/" target="_blank">
+							Let's find out...
+							</a>
+						</p>
+						<p class="fragment">
+							(More than a billion!)
+						</p>
+					</section>
+					<section>
+						<p>What is <strong>your</strong> favorite website?</p>
+						<p>Do <strong>you</strong> have an idea for a website you want to create?</p>
+					</section>
+					<section>
+						<h2>Websites</h2>
+						<p>They are hosted on <strong>servers</strong>, which <em>serve</em> the website</p>
+						<p>Written in HTML, CSS and Javascript</p>
+						<p id="pretty-text">HTML and CSS make your website look pretty</p>
+						<p>
+							<span class="fragment">Javascript</span>
+							<span class="fragment">makes</span>
+							<span class="fragment">them</span>
+							<span class="fragment">interactive</span>
+							<span class="fragment">!</span>
+						</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Web browsers</h2>
+						<img src="images/web-browsers.png" alt="web browsers">
+					</section>
+					<section>
+						<p>Which one are <strong>you</strong> using?</p>
+					</section>
+					<section>
+						<img src="images/desktop.png" class="sm" alt="desktop computer">
+						<img src="images/laptop.png" class="sm" alt="laptop computer">
+						<img src="images/ipad.png" alt="iPad" class="sm">
+						<img src="images/samsung-phone.png" alt="mobile phone" class="sm">
+						<img src="images/ps4.png" alt="playstation 4" class="sm">
+						<img src="images/smart-tv.png" alt="smart tv" class="sm">
+						<img src="images/smart-watch.png" alt="smart watch" class="sm">
+					</section>
+					<section>
+						<p>Web browsers are <strong>everywhere</strong>!</p>
+						<p class="fragment">
+							We call these devices <strong>clients</strong>.
+						</p>
+					</section>
+					<section>
+						<img src="images/client-server.png" alt="client server model" class="md">
+						<h6 class="fragment">client-server model</h6>
+					</section>
+				</section>
+				<section>
+					<section>
+						<p>Now, let's create our very first web page!</p>
+					</section>
+					<section>
+						<pre><code class="html" data-trim>
+This is my first webpage!
+					</code></pre>
+					<aside class="notes">
+						Type this into a file, save as mywebpage.html then open it
+					</aside>
+					</section>
+				</section>
 			</div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
